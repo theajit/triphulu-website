@@ -3,3 +3,45 @@
 @media(max-width:900px){.hero-grid,.two-col,.contact-grid,.problem-grid,.editorial,.detail-grid{grid-template-columns:1fr;gap:55px}.hero{padding-top:70px}.hero-visual{max-width:620px}.feature-grid,.role-grid{grid-template-columns:repeat(2,1fr)}.flow{grid-template-columns:repeat(4,1fr)}.section-heading.split{grid-template-columns:1fr;gap:10px}.price-grid{grid-template-columns:1fr}.price-card.featured{transform:none}.policy-grid{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:2fr 1fr 1fr}.footer-grid>div:last-child{grid-column:2}.cta-inner{align-items:flex-start;flex-direction:column}.catalog-group{grid-template-columns:120px 1fr}}
 @media(max-width:640px){.shell{width:min(100% - 28px,1180px)}.site-header{height:68px}.menu{display:flex;flex-direction:column;gap:6px}.menu span{display:block;width:25px;height:2px;background:var(--ink)}.site-header nav{display:none;position:absolute;left:14px;right:14px;top:68px;background:white;padding:24px;box-shadow:var(--shadow);flex-direction:column;align-items:stretch}.site-header nav.open{display:flex}.hero{min-height:0;padding:65px 0}.hero h1{font-size:3.35rem}.lead{font-size:1.05rem}.trust{flex-wrap:wrap;margin-top:40px}.trust span{width:100%;border:0}.stamp{right:0;top:-45px;width:85px;height:85px}.window-body{grid-template-columns:34px 1fr;min-height:280px}.window-main{padding:18px 10px}.metric-row>div{padding:8px}.metric-row strong{font-size:1rem}.table-head,.table-row{grid-template-columns:1.5fr 1fr}.table-head span:last-child,.table-row>span:last-child{display:none}.section,.flow-section,.dark-section,.problem-section{padding:75px 0}.feature-grid,.role-grid,.policy-grid{grid-template-columns:1fr}.flow{display:flex;overflow-x:auto;padding-bottom:12px}.flow>div{min-width:130px}.check-list{grid-template-columns:1fr}.compare{grid-template-columns:1fr}.catalog-group{grid-template-columns:1fr}.catalog-group>div:last-child{grid-template-columns:1fr}.catalog-group>div:first-child{padding:25px 0}.field-row{grid-template-columns:1fr}.contact-grid form{padding:25px}.footer-grid{grid-template-columns:1fr 1fr;gap:35px}.footer-grid>div:first-child{grid-column:1/-1}.footer-grid>div:last-child{grid-column:auto}.footer-bottom{flex-direction:column;gap:8px}.actions{flex-wrap:wrap}.page-hero{padding:75px 0}.page-hero h1{font-size:3.2rem}.not-found h1{font-size:3rem}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+/* TripHulu brand system */
+:root{--ink:#191b2e;--ink-2:#343752;--paper:#f7f7fc;--white:#fff;--warm:#ec4899;--violet:#a855f7;--indigo:#6366f1;--lime:#ebe5ff;--line:#e2e3ee;--muted:#667085;--gradient:linear-gradient(100deg,#6366f1 0%,#a855f7 52%,#ec4899 100%);--shadow:0 24px 70px rgba(67,56,202,.14)}
+.site-header{background:rgba(255,255,255,.94);border-bottom-color:rgba(99,102,241,.12)}
+.brand img{display:block;width:190px;height:auto}.footer-grid .brand img{width:205px;filter:drop-shadow(0 4px 18px rgba(236,72,153,.2))}
+.site-header nav>a:not(.button):hover,.hero h1 em,.page-hero h1 em,.contact-grid h1 em{color:var(--violet)}
+.button{background:var(--gradient);box-shadow:0 10px 28px rgba(168,85,247,.2)}.button:hover{background:linear-gradient(100deg,#5558eb,#9845e7 52%,#e5398b)}
+.button.cream{background:#fff;color:var(--ink);box-shadow:none}
+.eyebrow,.kicker,.flow span,.role-grid span,.point-list span,.policy-grid>article>span,.catalog-group>div:first-child,.contact-points span{color:var(--violet)}
+.route-line{border-color:rgba(168,85,247,.25)}.stamp,.cta-band{background:var(--gradient);color:#fff}.stamp{box-shadow:0 14px 35px rgba(236,72,153,.25)}
+.flow-section{background:#f0effc}.dark-section{background:#141528}.window-body aside{background:linear-gradient(180deg,#6366f1,#a855f7)}.window-body aside i{background:rgba(255,255,255,.48)}
+.roles{background:#faf9ff}.compare .answer,.price-card.featured{background:#1a1b31}.check-list li:before,.price-card li:before{color:#d8b4fe}
+footer{background:#0e1021}.footer-grid p{color:#a8acc5}.footer-grid h2{color:#d8b4fe}.footer-grid a:not(.brand){color:#c7c9d8}.footer-bottom{border-color:#30324e;color:#8d90aa}
+@media(max-width:640px){.brand img{width:155px}.footer-grid .brand img{width:180px}}
+
+/* TripHulu brand system */
+:root{--ink:#191b2e;--ink-2:#343752;--paper:#f7f7fc;--white:#fff;--warm:#ec4899;--violet:#a855f7;--indigo:#6366f1;--lime:#ebe5ff;--line:#e2e3ee;--muted:#667085;--gradient:linear-gradient(100deg,#6366f1 0%,#a855f7 52%,#ec4899 100%);--shadow:0 24px 70px rgba(67,56,202,.14)}
+.site-header{background:rgba(255,255,255,.94);border-bottom-color:rgba(99,102,241,.12)}
+.brand img{display:block;width:190px;height:auto}.footer-grid .brand img{width:205px;filter:drop-shadow(0 4px 18px rgba(236,72,153,.2))}
+.site-header nav>a:not(.button):hover,.hero h1 em,.page-hero h1 em,.contact-grid h1 em{color:var(--violet)}
+.button{background:var(--gradient);box-shadow:0 10px 28px rgba(168,85,247,.2)}.button:hover{background:linear-gradient(100deg,#5558eb,#9845e7 52%,#e5398b)}
+.button.cream{background:#fff;color:var(--ink);box-shadow:none}
+.eyebrow,.kicker,.flow span,.role-grid span,.point-list span,.policy-grid>article>span,.catalog-group>div:first-child,.contact-points span{color:var(--violet)}
+.route-line{border-color:rgba(168,85,247,.25)}.stamp,.cta-band{background:var(--gradient);color:#fff}.stamp{box-shadow:0 14px 35px rgba(236,72,153,.25)}
+.flow-section{background:#f0effc}.dark-section{background:#141528}.window-body aside{background:linear-gradient(180deg,#6366f1,#a855f7)}.window-body aside i{background:rgba(255,255,255,.48)}
+.roles{background:#faf9ff}.compare .answer,.price-card.featured{background:#1a1b31}.check-list li:before,.price-card li:before{color:#d8b4fe}
+footer{background:#0e1021}.footer-grid p{color:#a8acc5}.footer-grid h2{color:#d8b4fe}.footer-grid a:not(.brand){color:#c7c9d8}.footer-bottom{border-color:#30324e;color:#8d90aa}
+@media(max-width:640px){.brand img{width:155px}.footer-grid .brand img{width:180px}}
+
+/* TripHulu brand system */
+:root{--ink:#191b2e;--ink-2:#343752;--paper:#f7f7fc;--white:#fff;--warm:#ec4899;--violet:#a855f7;--indigo:#6366f1;--lime:#ebe5ff;--line:#e2e3ee;--muted:#667085;--gradient:linear-gradient(100deg,#6366f1 0%,#a855f7 52%,#ec4899 100%);--shadow:0 24px 70px rgba(67,56,202,.14)}
+.site-header{background:rgba(255,255,255,.94);border-bottom-color:rgba(99,102,241,.12)}
+.brand img{display:block;width:190px;height:auto}.footer-grid .brand img{width:205px;filter:drop-shadow(0 4px 18px rgba(236,72,153,.2))}
+.site-header nav>a:not(.button):hover,.hero h1 em,.page-hero h1 em,.contact-grid h1 em{color:var(--violet)}
+.button{background:var(--gradient);box-shadow:0 10px 28px rgba(168,85,247,.2)}.button:hover{background:linear-gradient(100deg,#5558eb,#9845e7 52%,#e5398b)}
+.button.cream{background:#fff;color:var(--ink);box-shadow:none}
+.eyebrow,.kicker,.flow span,.role-grid span,.point-list span,.policy-grid>article>span,.catalog-group>div:first-child,.contact-points span{color:var(--violet)}
+.route-line{border-color:rgba(168,85,247,.25)}.stamp,.cta-band{background:var(--gradient);color:#fff}.stamp{box-shadow:0 14px 35px rgba(236,72,153,.25)}
+.flow-section{background:#f0effc}.dark-section{background:#141528}.window-body aside{background:linear-gradient(180deg,#6366f1,#a855f7)}.window-body aside i{background:rgba(255,255,255,.48)}
+.roles{background:#faf9ff}.compare .answer,.price-card.featured{background:#1a1b31}.check-list li:before,.price-card li:before{color:#d8b4fe}
+footer{background:#0e1021}.footer-grid p{color:#a8acc5}.footer-grid h2{color:#d8b4fe}.footer-grid a:not(.brand){color:#c7c9d8}.footer-bottom{border-color:#30324e;color:#8d90aa}
+@media(max-width:640px){.brand img{width:155px}.footer-grid .brand img{width:180px}}
