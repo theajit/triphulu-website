@@ -1,0 +1,2 @@
+import Link from '@/components/Link';
+export function CTA(){return <section className="cta-band"><div className="shell cta-inner"><div><p className="kicker">One workflow. Every journey.</p><h2>Ready to run every trip from one workflow?</h2></div><div className="actions"><Link className="button cream" href="/contact">Book a demo <span>↗</span></Link><Link className="text-link light-link" href="/contact">Talk to us →</Link></div></div></section>}

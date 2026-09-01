@@ -1,0 +1,1 @@
+import Link from '@/components/Link'; export default function NotFound(){return <section className="not-found"><div><p className="eyebrow">404 / Route not found</p><h1>This journey took a wrong turn.</h1><p>The page you’re looking for doesn’t exist or may have moved.</p><Link className="button" href="/">Return home →</Link></div></section>}
